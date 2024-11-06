@@ -35,3 +35,11 @@ print(count)
 # print(type(price))
 # print(type(count))
 print(price/count)
+
+#文字列中に値を埋め込む：フォーマット関数={}の位置に値が埋め込まれる
+name = 'Sasaki'
+hometown = 'Ibaraki'
+print('My name is {}. I\'m from {}.' .format(name, hometown))
+
+#フォーマット済み文字列リテラル(f文字列)：文字列の最初に[f]をつけて{変数}とする
+print(f'My name is {name}. I\'m from {hometown}.')
