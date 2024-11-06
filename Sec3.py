@@ -22,3 +22,16 @@ delivary_fee = 500
 print(1000 + delivary_fee)#=1500
 delivary_fee = 250
 print(1000 + delivary_fee)#=1250
+
+#キーボードから直接値を入力
+name = input('please enter your name.')
+print('Hello' + name + 'san.')
+
+#データ型を変換
+price = int(input('価格を入力'))
+print(price)
+count = int(input('人数を入力'))
+print(count)
+# print(type(price))
+# print(type(count))
+print(price/count)
