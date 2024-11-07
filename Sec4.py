@@ -33,3 +33,10 @@ print(scores)
 # 全ての要素削除
 scores.clear
 print(scores)
+
+#おみくじプログラム
+#実行するたびにランダムに大凶、凶、末吉、吉、小吉、中吉、大吉を表示
+import random
+omikuji_list = ['大凶', '凶', '末吉', '吉', '小吉', '中吉', '大吉']
+num = random.randint(0, 6)
+print(omikuji_list[num])
