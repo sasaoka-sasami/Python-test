@@ -7,3 +7,8 @@ elif score >= 50:
     print('OK')
 else:
     print('NG')
+
+# スコアリストに100があったら出力
+scores = [1, 2, 3, 100]
+if 100 in scores:
+    print('100があります')
